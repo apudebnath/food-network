@@ -1,0 +1,158 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    box-sizing: border-box;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.half-content {
+    width: 50%;
+
+}
+
+.half-content h1 {
+    font-size: 66px;
+    font-weight: 900px;
+    color: rgb(82, 80, 80);
+}
+
+.half-content span {
+    color: #FE4B2E;
+}
+
+.half-content p {
+    font-size: 18px;
+    color: rgb(102, 101, 101);
+    font-weight: 500;
+    line-height: 1.6em;
+    word-spacing: 0.2em;
+    padding-bottom: 30px;
+}
+
+.half-content a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #FD4A2E, #FC8F49);
+    padding: 15px 25px;
+    border-radius: 30px;
+    color: rgb(1, 39, 56)
+}
+
+.half-content a:hover {
+    background-image: linear-gradient(to left, #FD4A2E, #FC8F49);
+    padding: 18px 30px;
+    color: rgb(253, 251, 250)
+}
+
+.half-content img {
+    width: 100%;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/banner-bg.png);
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.about-container .half-content img {
+    width: 74%;
+    padding: 50px 0 0 50px;
+}
+
+.about-container .half-content p {
+    padding-right: 50px;
+}
+
+.recipie-container {
+    align-items: center;
+    padding: 50px;
+}
+
+.recipie-content {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.recipie-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.recipie-content p {
+    font-size: 18px;
+    color: rgb(102, 101, 101);
+    font-weight: 500;
+    word-spacing: 0.2em;
+    line-height: 1.6em;
+    padding: 10px 200px;
+}
+
+.single-recipe {
+    display: flex;
+
+    padding: 0 30px;
+}
+
+.recipie-item {
+    width: 30%;
+    min-height: 500px;
+    box-shadow: 10px 8px 40px rgb(212, 212, 212);
+    border-radius: 24px;
+    padding: 20px;
+    margin: 0 15px;
+}
+
+.recipie-item img {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.recipie-item h4 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.recipie-item p {
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+    font-weight: 500;
+    line-height: 1.6em;
+    word-spacing: 0.2em;
+}
+
+.social {
+    padding: 60px 50px;
+}
+
+.social-box {
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 40px rgb(202, 201, 201);
+    margin: 0 50px;
+    border-radius: 20px;
+}
+
+.social-item {
+    padding: 10px 100px 30px;
+}
+
+.social-item h2 {
+    font-size: 46px;
+    margin-bottom: -10px;
+
+}
