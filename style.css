@@ -12,7 +12,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 70px;
+    padding: 0 60px;
+    margin: 50px 0;
 }
 
 .half-content {
@@ -56,7 +57,7 @@ body {
 }
 
 .half-content img {
-    width: 100%;
+    width: 90%;
 }
 
 .about-container {
@@ -71,6 +72,11 @@ body {
 .about-container .half-content img {
     width: 74%;
     padding: 50px 0 0 50px;
+}
+
+.about-container .half-content h2 {
+    font-size: 38px;
+    color: rgb(82, 80, 80);
 }
 
 .about-container .half-content p {
@@ -88,8 +94,8 @@ body {
 }
 
 .recipie-content h2 {
-    font-size: 36px;
-    font-weight: 700;
+    font-size: 38px;
+    color: rgb(82, 80, 80);
 }
 
 .recipie-content p {
@@ -154,5 +160,29 @@ body {
 .social-item h2 {
     font-size: 46px;
     margin-bottom: -10px;
+}
 
+.footer-container {
+    padding: 40px 0px;
+    background-color: rgb(14, 16, 26);
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content h2 {
+    font-size: 34px;
+    color: rgb(73, 71, 71);
+}
+
+.footer-content span {
+    color: #FD4D2F;
+}
+
+.footer-content h4 {
+    font-size: 18px;
+    color: rgb(170, 163, 163);
+    line-height: 1.6em;
+    word-spacing: 0.2em;
 }
