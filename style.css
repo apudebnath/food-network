@@ -170,7 +170,7 @@ body {
 .recipie-item:hover {
     width: 30%;
     min-height: 500px;
-    box-shadow: 8px 8px 30px rgb(207, 204, 204);
+    box-shadow: 8px 8px 40px rgb(207, 204, 204);
     border-radius: 24px;
     padding: 20px;
     margin: 0 15px;
@@ -246,7 +246,7 @@ body {
 .social-box {
     display: flex;
     justify-content: center;
-    box-shadow: 10px 10px 40px rgb(202, 201, 201);
+    box-shadow: 10px 10px 40px rgb(216, 214, 214);
     margin: 0 50px;
     border-radius: 20px;
 }
@@ -272,7 +272,7 @@ body {
 
 .editors-content h2 {
     font-size: 38px;
-    color: rgb(82, 80, 80);
+    color: rgb(68, 66, 66);
     padding-bottom: 20px;
 }
 
@@ -287,7 +287,7 @@ body {
     margin: 10px 40px;
     text-align: center;
     background-color: white;
-    box-shadow: 6px 6px 30px rgb(233, 230, 230);
+    box-shadow: 6px 6px 30px rgb(231, 230, 230);
     border-radius: 10px;
 
 }
@@ -295,7 +295,7 @@ body {
 .editor-item .single-editor:hover {
     margin: 10px 40px;
     text-align: center;
-    box-shadow: 6px 6px 30px rgb(224, 202, 202);
+    box-shadow: 6px 6px 40px rgb(226, 212, 212);
 }
 
 .editor-item .single-editor h4 {
@@ -318,6 +318,7 @@ body {
 
 .editor-item .single-editor img {
     padding: 30px;
+    width: 270px;
 }
 
 .footer-container {
